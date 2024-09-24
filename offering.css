@@ -1,0 +1,99 @@
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.offerings {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.offerings-content h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    align-content: center;
+    text-shadow: 0px 0px 7px #ffffff;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 700;
+    letter-spacing: 7px;
+ 
+}
+
+.sidebar {
+    align-items: center;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 20px;
+    height: 850px;
+    display: flex;
+    margin-top: 155px;
+   
+ 
+
+}
+
+.sidebar ul {
+    list-style: none;
+  padding-top: 30px;
+    padding-left: 1rem;
+
+}
+
+.sidebar ul li a {
+    padding: 105px 20px 80px 0px;
+    gap: 18px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+
+.sidebar ul li a i{
+   font-size: 35px;
+  
+}
+
+.offerings-content {
+    padding: 20px;
+    width: 100%;
+}
+
+.offerings-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.offering-cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 25px;
+    justify-content: center;
+    background-image: linear-gradient(to bottom left, #1f1f1f, #262626) !important;
+    border-radius: 30px;
+   
+
+}
+
+.card-offring{
+    background-image: linear-gradient(to bottom right, #111111, #262626) !important;
+    padding: 30px;
+    border-radius: 30px !important;
+    border: 1px solid rgba(231, 231, 231, 0.042);
+    color: #ffffff !important;
+    box-shadow: 0px 0px 20px #000000b8;
+}
+
+.card h3 {
+    margin-top: 0;
+}

@@ -1,0 +1,647 @@
+body {
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif !important;
+
+    background-color: #121212 !important;
+    color: #ffffff;
+}
+
+
+
+p {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+.container {
+    max-width: 1280px !important;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 1% 5%;
+}
+
+nav h3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    align-content: center;
+    text-shadow: 0px 0px 7px #ec7c0c;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 700;
+    letter-spacing: 7px;
+
+}
+
+.nav-link {
+    text-align: right;
+}
+
+.nav-link ul {
+    display: inline-block;
+}
+
+.nav-link ul li {
+    list-style: none;
+    padding: 5px 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.nav-link ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.nav-link ul li::after {
+    content: '';
+    background-color: #ffffff;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin: 2px 0px;
+    transition: 1s;
+
+}
+
+.nav-link ul li:hover::after {
+    width: 100%;
+
+}
+
+.contact-button a {
+    color: #fffdfd;
+    text-decoration: none;
+}
+
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-image: linear-gradient(to bottom right, #111111, #262626) !important;
+    padding: 20px;
+    border-radius: 30px !important;
+    width: 300px;
+    border: 1px solid rgba(231, 231, 231, 0.042);
+    color: #ffffff !important;
+
+
+}
+
+.im-card {
+    display: flex;
+    background-image: linear-gradient(to bottom right, #111111, #262626);
+    padding: 20px;
+    border-radius: 30px;
+    width: 500px;
+    align-items: center;
+    border: 1px solid rgba(231, 231, 231, 0.042);
+    color: #ffffff !important;
+
+}
+
+.im-card img {
+    width: 250px;
+    border-radius: 30px;
+
+}
+
+.card-text {
+    padding-left: 20px;
+}
+
+.card h2 {
+    margin-top: 10px;
+    
+   
+    
+}
+.heading-main{
+    font-size: 32px;
+}
+.paragraf-main{
+    font-size: 18px;
+
+}
+.card p {
+    margin: 10px 0;
+   
+}
+
+.contact-button {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #555555;
+}
+
+.Portfolios-div {
+    width: 250px;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+.Port-img img {
+    width: 150px;
+
+}
+
+.Port-text {
+    text-align: left;
+}
+
+.Port-text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Port-text p {
+    color: rgb(92, 92, 92);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.Port-text h2{
+    font-size: 35px;
+}
+
+.Cv-div {
+    width: 250px;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.box-center {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.services-icon {
+    padding-top: 20px;
+}
+
+.services-icon i {
+    color: #ffffff;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.Social-icons a i {
+    transition: 0.5s;
+
+}
+
+.Social-icons a i:hover {
+    color: #404040 !important;
+
+}
+
+.Social-div {
+    width: 200px;
+
+}
+
+.project-div {
+
+    width: 500px;
+
+}
+
+.pro-box span {
+    font-size: 45px;
+    line-height: 30px;
+}
+
+.pro-box p {
+    text-transform: uppercase;
+    color: rgb(92, 92, 92);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
+.pro-box {
+    justify-content: center !important;
+    margin: auto;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+
+
+}
+
+.pro-box .box {
+    width: 140px !important;
+    background-image: linear-gradient(to bottom left, #181818, #262626);
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px 10px 10px 10px;
+
+
+}
+
+.work-togle a i {
+    padding-top: 50px;
+    color: #8c8c8c;
+    font-size: 30px;
+    padding-right: 10px;
+
+}
+
+.work-on img {
+    width: 50px;
+    padding: 0 5px;
+
+}
+
+/* ---btn */
+.botton {
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #ffff;
+    border: 1px solid #ffff;
+    background-image: linear-gradient(to bottom left, #181818, #262626);
+    margin: 15px;
+
+}
+
+/* -abous-us--- */
+
+
+.profile {
+    display: flex;
+    /* grid-template-columns: 300px 1fr; */
+    gap: 20px;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.profile-image {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    top: 20px;
+    height: fit-content;
+    position: sticky;
+    margin-top: -75%;
+    
+}
+
+.profile-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.profile-image h2 {
+    margin: 10px 0;
+    color: #fff;
+
+}
+
+.profile-image p {
+    margin: 5px 0;
+    color: #fff;
+
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.profile-image button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.profile-details {
+    padding: 20px;
+}
+
+.profile-details section {
+    margin-bottom: 20px;
+}
+
+.profile-details h3 {
+    border-bottom: 1px solid #5a5a5ab9;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 18px;
+
+}
+
+.profile-details p {
+    margin: 5px 0;
+    color: #fff;
+    padding-bottom: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.cont-whats:hover {
+    color: #ffffff;
+    background-color: #15be0f !important;
+
+}
+
+.cont-whats {
+    background-color: rgb(8, 133, 8) !important;
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    transition: 0.5s;
+
+}
+
+
+/* ----about.------ */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    max-width: 1280px !important;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.summary-content {
+    text-align: left;
+
+}
+
+.summary-content h2 {
+    color: #fff !important;
+    height: 50px;
+
+}
+
+.summary-content p {
+    font-weight: 500;
+    line-height: 30px;
+    color: #7a7a7a;
+
+}
+
+.detail-card h3 {
+    color: #fff;
+
+}
+
+.detail-card p {
+    font-weight: 500;
+    line-height: 30px;
+    color: #7a7a7a;
+ 
+}
+
+.detail-card p strong {
+    color: #fffdfd;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+.detail-card ul li {
+    font-size: 18px;
+
+}
+
+
+.profile-summary {
+    display: flex;
+    width: 80%;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    background-image: linear-gradient(to bottom right, #111111, #262626) !important;
+    padding: 20px;
+    border-radius: 30px !important;
+    border: 1px solid rgba(231, 231, 231, 0.042);
+    width: 300px;
+
+}
+
+.profile-image img {
+    width: 70%;
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
+
+.profile-image h2 {
+    margin: 10px 0;
+    color: #fff;
+    font-size: 30px;
+}
+
+.profile-image p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+
+
+.detail-card a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    padding-left: 20px;
+
+}
+
+.details {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 80%;
+
+}
+
+.detail-card {
+    text-align: left !important;
+
+}
+
+.detail-card-img img {
+    width: 100%;
+
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    border-top: 1px solid #33333327;
+    
+}
+
+.footer-content p {
+    margin: 0;
+    color: #404040;
+    font-size: 15px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center !important;
+
+
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* ---Animation-box */
+/* Animation for sliding in from the left */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Animation for sliding in from the right */
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slideInFromTop{
+    0% {
+        transform: translateY(-10%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+}
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes zoomOut {
+    0% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.box-zoom-out {
+    animation: zoomOut 0.5s ease-in-out forwards;
+}
+
+.box-zoom-in {
+    animation: zoomIn 0.5s ease-in-out forwards;
+}
+
+/* Apply the animation to the boxes */
+.box-left {
+    animation: slideInFromLeft 1s ease-in-out forwards;
+}
+
+.box-right {
+    animation: slideInFromRight 1s ease-in-out forwards;
+}
+.box-Bottom {
+    animation: slideInFromBottom 1s ease-in-out forwards;
+}
+.box-Top {
+    animation: slideInFromTop 1s ease-in-out forwards;
+}

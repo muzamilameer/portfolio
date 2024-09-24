@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expert WordPress & Custom Coding Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="popo-up-.css">
+    <link rel="stylesheet" href="offering.css">
+    <link rel="shortcut icon" href="images/iconn.png" type="images/icon">
+    <!-- -Mobile-Menu- -->
+    <link rel="stylesheet" href="mobile-menu.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="menu-container">
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+        <div class="menu" id="menu">
+            <div class="menu-header">
+                <div class="profile">
+                    <img src="images/Muzammil-profile-pic-hd.png" alt="Muzammil Abbas" class="profile-img">
+                    <div class="profile-info">
+                        <span class="name">Muzammil Abbas</span>
+                        <span class="club">WordPress Developer & Designer | Custom Coding Expert</span>
+                    </div>
+                </div>
+                <div class="menu-close" id="menu-close">
+                    ✖
+                </div>
+            </div>
+            <ul class="menu-items">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="offerings.html">SERVICES</a></li>
+                <li><a href="https://wa.me/+923070003827">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="container">
+        <nav>
+            <div class="nav-link" id="navbar">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="offerings.html">SERVICES</a></li>
+                    <li><a href="https://wa.me/+923070003827">CONTACT</a></li>
+                    <button class="contact-button"><a href="https://wa.me/+923070003827">Let's Talk</a> </button>
+
+                </ul>
+            </div>
+        </nav>
+
+        
+        <div class="main">
+            <div class="im-card box box-left col-12 col-sm-12 col-md-12 col-lg-6  col-xl-6 ">
+                <img class="box-zoom-out" src="images/Muzammil-profile-pic-hd.png" alt="David Henderson">
+                <div class="card-text">
+                    <h2 class="box-zoom-in heading-main">Muzammil Abbas.</h2>
+                    <p class="box-zoom-in paragraf-main">Experienced WordPress Developer & Designer | Custom Coding Expert in HTML, CSS, JavaScript
+                    </p>
+
+                </div>
+            </div>
+            <div class="portfolio-box box box-right card Portfolios-div col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3" id="portfolioBox">
+                <div class="box-center">
+
+                    <div class="Port-img portfolio-image">
+                        <img style="width: 200px;" class="box-zoom-in" src="images/potfilo-work.png" alt="">
+                    </div>
+                    <div class="Port-text portfolio-text">
+                        <p> Showcase</p>
+                        <h2>Projects</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- Popup Modal -->
+            <div id="popupModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="options">
+                        <button class="option-btn botton" onclick="showImages('wordpress')">WordPress</button>
+                        <button class="option-btn botton" onclick="showImages('frontend')">Front-End</button>
+                    </div>
+                    <div id="imagesList" class="images-list"></div>
+                </div>
+            </div>
+            <!-- Image Viewer Modal -->
+            <div id="imageViewerModal" class="modal">
+                <span class="close" id="closeImageViewer">&times;</span>
+                <span class="prev" id="prevImage">&#10094;</span>
+                <span class="next" id="nextImage">&#10095;</span>
+                <img class="modal-content" id="fullImage">
+            </div>
+            <div class="card box box-right Cv-div col-12 col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                <div class="box-center">
+
+                    <div class="Port-img box-zoom-in">
+                        <img src="images/cv.png" alt="">
+                    </div>
+                    <div class="Port-text">
+                        <p>My cv</p>
+                        <h2><a style="text-decoration: none ; color: #fff;" href="CV/Muzammil abbas.pdf"
+                                download="My_CV.pdf">Download</a></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card box box-left services-div col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                <div class="box-center">
+                    <div class="services-icon box-zoom-in" style="display: flex; justify-content: center; gap: 50px; ">
+                        <i class="fa-brands fa-wordpress"></i>
+                        <i class="fa-solid fa-pen-nib"></i>
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <div class="Port-text">
+                        <p>
+                            specialzation</p>
+                        <h2><a href="offerings.html">Services Offering</a></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card Social-div box-zoom-in col-12 col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                <div class="box-center box-zoom-in">
+                    <div class="Social-icons services-icon" style="display: flex; justify-content: center; gap: 20px; ">
+                        <a href="https://www.linkedin.com/in/muzammil-ameer-0b00102a6/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100094317415321"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://wa.me/+923070003827"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <div class="Port-text">
+                        <p> stay with me</p>
+                        <h2>Profiles</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card box box-right project-div  col-12 col-sm-12 col-md-7 col-lg-5 col-xl-5">
+                <div class="pro-box counters box-zoom-in">
+                    <div class="counter box">
+                        <span class="count" data-target="2">0</span>
+                        <p>YEARS EXPERIENCE</p>
+                    </div>
+                    <div class="counter box">
+                        <span class="count" data-target="37">0</span>
+                        <p>CLIENTS WORLDWIDE</p>
+                    </div>
+                    <div class="counter box">
+                        <span class="count" data-target="43">0</span>
+                        <p>TOTAL PROJECTS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card project-div box-Bottom  col-12 col-sm-12 col-md-4 col-lg-5 col-xl-5">
+                <div class="work-togle box-zoom-in"
+                    style="padding-top: 20px; display: flex; align-items: center; justify-content: space-between;">
+                    <a style="text-decoration: none; color: #fff;" href="https://wa.me/+923070003827">
+                        <h2>Let's <br> Work <span style="color: rgb(6, 68, 236);">together.</span></h2>
+                    </a>
+                    <a href="https://wa.me/+923070003827"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="Port-text life box-zoom-in">
+                    <p>Bring your ideas to life </p>
+                </div>
+            </div>
+            <div class="card project-div box box-Bottom   col-12 col-sm-5 col-md-5 col-lg-3 col-xl-3">
+                <div class="box-center box-zoom-in">
+                    <div class="Port-img">
+                        <img src="images/sign.png" alt="">
+                    </div>
+                    <div class="Port-text">
+                        <p>MORE ABOUT ME</p>
+                        <h2><a style="text-decoration: none ; color: #fff;" href="credentials.html">Credentials</a></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card project-div box box-Bottom   col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                <div class="box-center box-zoom-in">
+                    <div class=" work-on">
+                        <img style="width: 80px;" src="images/fiverr.png" alt="">
+                        <img src="images/upwrok.png" alt="">
+                        <img src="images/facebook.png" alt="">
+                    </div>
+                    <div class="Port-text">
+                        <p>the platforms i work on </p>
+                        <h2><a style="text-decoration: none ; color: #fff;" href="">Platforms </a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy;Design By Muzasmmil Ameer</p>
+        </div>
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="offerings.html">SERVICES</a></li>
+                <li><a id="portfolioBox" href="#">PROJECTS</a></li>
+                <li><a href="https://wa.me/+923070003827">CONTACT</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+
+
+    <script src="javascript.js"></script>
+    <script src="menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
